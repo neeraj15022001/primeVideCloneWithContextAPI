@@ -1,0 +1,12 @@
+.moviecard {
+    width: 95% !important
+}
+img {
+    width: 300px;
+}
+.moviecard__sliderImageDivision {
+    max-width: 300px !important;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

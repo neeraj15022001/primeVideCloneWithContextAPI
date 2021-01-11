@@ -1,0 +1,14 @@
+.loginPage {
+    margin-top: 30vh;
+}
+.loginPage > img {
+    margin-bottom: 100px;
+    width: 500px;
+}
+.loginPage__loginButton {
+    width: 300px;
+    background-color: rgb(12,102,240) !important;
+}
+.loginPage__loginButton:hover {
+    background-color: rgb(13, 95, 218) !important;
+}

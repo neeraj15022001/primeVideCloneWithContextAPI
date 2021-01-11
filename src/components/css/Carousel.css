@@ -1,0 +1,18 @@
+.carousel__back {
+    top: 230px;
+    left: 15px;
+    outline: none;
+    background: none;
+}
+.carousel__dot--selected {
+    background-color: white !important;
+}
+.carousel__next {
+    top: 230px;
+    right: 15px;
+    background: none;
+    outline: none;
+}
+.carousel__dots {
+    width: 30px;
+}

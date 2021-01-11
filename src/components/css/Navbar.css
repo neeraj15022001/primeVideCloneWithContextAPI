@@ -1,0 +1,54 @@
+:root {
+  --themeColor: #1b2430;
+}
+.bg-theme {
+  background-color: var(--themeColor) !important;
+}
+.navbar {
+  box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.404);
+}
+
+.navbar__image {
+  width: 130px;
+}
+.navbar__search {
+  border: 1px solid gray;
+  padding: 4px 20px 4px 4px;
+}
+.navbar__search__form > input {
+  outline: none;
+  border: none;
+  background: none;
+}
+.navbar__search > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.navbar__titles__title {
+  transition: ease-in-out;
+}
+.navbar__titles__title:hover {
+  border-bottom: 2px solid white;
+}
+.navbar__titles__title--active {
+  border-bottom: 2px solid white;
+}
+.navbar__user__dropdown__menu {
+  z-index: 1000;
+  width: 320px;
+  right: 27px;
+  border-radius: 0px 0px 10px 10px;
+  font-size: small;
+}
+
+.navbar__user__overlay {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 60px;
+  z-index: 999;
+}
+.navbar__dropdown__menu {
+  outline: none !important;
+  box-shadow: none !important;
+  min-width: 24px !important;
+}

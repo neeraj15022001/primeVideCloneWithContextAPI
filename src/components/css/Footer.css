@@ -1,0 +1,13 @@
+.footer__image {
+    width: 120px;
+}
+.footer__links > li {
+    margin-left: 5px;
+    padding: 10px;
+    color:#4E5E68;
+}
+.footer__links > li > a {
+    text-decoration: none;
+    color: #71AFC5;
+}
+
